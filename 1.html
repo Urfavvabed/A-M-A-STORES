@@ -1286,7 +1286,7 @@ document.querySelectorAll('.product').forEach(product => {
           message: message
         };
 
-        emailjs.send("service_buzpkzz", "template_kn6oq5f", templateParams)
+        emailjs.send("karim", "template_kn6oq5f", templateParams)
           .then(function () {
             alert("✅ Review sent successfully!");
             document.getElementById('reviewForm').reset();
